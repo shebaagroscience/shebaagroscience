@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sheba Agro Science - Imported agricultural seeds and products in Bangladesh. Explore our products and contact us for product information.">
+  <meta name="keywords" content="Sheba Agro Science, Sheba Agro Science Bangladesh, imported seeds, agricultural products, কৃষি পণ্য, বীজ">
+  <meta name="theme-color" content="#14532d">
+  <title>Sheba Agro Science | Imported Agricultural Products</title>
+  <style>
+    :root{--green:#14532d;--green2:#1f7a45;--lime:#d9f99d;--ink:#183126;--muted:#64756b;--cream:#f6faf5;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,"Noto Sans Bengali",sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+    header{background:#fff;position:sticky;top:0;z-index:5;box-shadow:0 2px 15px #0b352012}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:11px;font-weight:800;color:var(--green);letter-spacing:.3px}
+    .logo{width:43px;height:43px;border-radius:13px;background:var(--green);display:grid;place-items:center;color:white;font-size:23px}
+    .brand small{display:block;color:#668072;font-size:10px;letter-spacing:1.4px;font-weight:700}
+    nav{display:flex;gap:25px;font-size:14px;font-weight:700;color:#355545}
+    nav a:hover{color:var(--green2)}.menu{display:none;border:0;background:#eef6ef;padding:9px 12px;border-radius:9px;font-size:20px}
+    .hero{background:linear-gradient(110deg,#0e4228f2,#17643bcf),url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=85') center/cover;color:white;padding:100px 0 94px}
+    .hero-inner{max-width:700px}.eyebrow{display:inline-block;background:#ffffff20;border:1px solid #ffffff55;padding:7px 13px;border-radius:30px;font-size:12px;letter-spacing:1.4px;font-weight:700}
+    h1{font-size:clamp(38px,6vw,66px);line-height:1.08;margin:22px 0 18px;letter-spacing:-1.8px}
+    .hero p{font-size:18px;color:#e5f4e9;max-width:590px;margin:0 0 30px}
+    .btn{display:inline-block;background:var(--lime);color:#183b27;padding:13px 21px;border-radius:9px;font-weight:800;font-size:14px}
+    .btn.secondary{background:transparent;border:1px solid #ffffffa8;color:#fff;margin-left:9px}
+    .trust{background:#f0f7f0;padding:22px 0}.trustrow{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    .trustitem{font-size:14px;font-weight:700;color:#315a40}
+    section{padding:76px 0}.section-head{text-align:center;max-width:680px;margin:0 auto 38px}
+    .kicker{color:var(--green2);font-size:12px;letter-spacing:1.8px;text-transform:uppercase;font-weight:800}
+    h2{font-size:clamp(28px,4vw,39px);line-height:1.2;color:var(--green);margin:10px 0 12px}
+    .section-head p,.about p{color:var(--muted);margin:0}
+    .products{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .product{border:1px solid #e2ece3;border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 8px 25px #173c2010}
+    .product-img{height:190px;background:linear-gradient(135deg,#e9f4e9,#d5e8d6);display:grid;place-items:center;color:#5a8163;text-align:center;padding:20px;font-weight:700}
+    .product-img span{font-size:42px;display:block;margin-bottom:7px}
+    .product-body{padding:20px}.product-body h3{margin:0 0 7px;color:var(--green);font-size:18px}
+    .product-body p{margin:0;color:var(--muted);font-size:14px}
+    .tag{display:inline-block;margin-top:14px;padding:5px 9px;border-radius:20px;background:#edf7ed;color:#326342;font-size:11px;font-weight:800}
+    .about{background:var(--cream)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+    .about-card{background:#e3f0e4;border-radius:20px;padding:35px;min-height:280px;display:flex;flex-direction:column;justify-content:center}
+    .about-card .big{font-size:62px}.about-card strong{font-size:22px;color:var(--green)}
+    .contact{background:var(--green);color:white}.contact h2{color:white}.contact .section-head p{color:#d7eadc}
+    .contact-box{max-width:720px;margin:auto;background:#ffffff12;border:1px solid #ffffff30;border-radius:17px;padding:28px;text-align:center}
+    .contact-box p{color:#e0efe4}.contact-note{font-size:13px;color:#c8e0cf}
+    footer{background:#0b321e;color:#d6e7da;padding:25px 0;font-size:13px}
+    .foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:760px){nav{display:none;position:absolute;top:76px;left:0;right:0;background:white;padding:20px 5%;flex-direction:column;gap:16px;box-shadow:0 10px 15px #0001}.menu{display:block}.products{grid-template-columns:1fr 1fr}.about-grid{grid-template-columns:1fr;gap:25px}.hero{padding:75px 0}.hero p{font-size:16px}}
+    @media(max-width:480px){.products{grid-template-columns:1fr}.btn.secondary{margin:10px 0 0}.trustrow{display:grid;grid-template-columns:1fr 1fr}.product-img{height:170px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home"><span class="logo">🌱</span><span>SHEBA AGRO SCIENCE<small>AGRICULTURE • SEEDS • GROWTH</small></span></a>
+    <nav id="nav"><a href="#home">Home</a><a href="#products">Our Products</a><a href="#about">About Us</a><a href="#contact">Contact</a></nav>
+    <button class="menu" aria-label="Open menu" onclick="document.getElementById('nav').style.display=document.getElementById('nav').style.display==='flex'?'none':'flex'">☰</button>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-inner">
+      <span class="eyebrow">YOUR AGRICULTURE PARTNER IN BANGLADESH</span>
+      <h1>Quality Products.<br>Stronger Harvests.</h1>
+      <p>Sheba Agro Science brings imported agricultural products closer to farmers, dealers and partners across Bangladesh.</p>
+      <a class="btn" href="#products">Explore Products</a><a class="btn secondary" href="#contact">Contact Us</a>
+    </div>
+  </section>
+  <div class="trust"><div class="wrap trustrow"><div class="trustitem">🌱 Imported Agricultural Products</div><div class="trustitem">🤝 Farmer & Dealer Support</div><div class="trustitem">🇧🇩 Serving Bangladesh</div></div></div>
+  <section id="products">
+    <div class="wrap">
+      <div class="section-head"><span class="kicker">Product Catalogue</span><h2>Our Products</h2><p>Explore our range of imported agricultural products. Product details and images will be added here.</p></div>
+      <div class="products">
+        <article class="product"><div class="product-img"><div><span>🌾</span>Product image coming soon</div></div><div class="product-body"><h3>Imported Seeds</h3><p>Details, variety names and packaging information will be published soon.</p><span class="tag">SEED PRODUCTS</span></div></article>
+        <article class="product"><div class="product-img"><div><span>🌽</span>Product image coming soon</div></div><div class="product-body"><h3>Crop & Vegetable Seeds</h3><p>Information about available crop and vegetable seed products.</p><span class="tag">AGRICULTURAL SEEDS</span></div></article>
+        <article class="product"><div class="product-img"><div><span>🌿</span>Product image coming soon</div></div><div class="product-body"><h3>Other Agro Products</h3><p>More imported agricultural products will be listed in this catalogue.</p><span class="tag">AGRO INPUTS</span></div></article>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <div><span class="kicker">Who We Are</span><h2>About Sheba Agro Science</h2><p>Sheba Agro Science is an agricultural products business in Bangladesh, focused on supplying imported products to the local market. We aim to make product information easy to find and help customers connect with us for enquiries and business opportunities.</p></div>
+      <div class="about-card"><div class="big">🌱</div><strong>Growing Together</strong><p>Supporting agriculture through access to quality products and clear product information.</p></div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="section-head"><span class="kicker" style="color:#c8f0cf">Get In Touch</span><h2>Contact Sheba Agro Science</h2><p>For product availability, pricing and dealership enquiries, contact our team.</p></div>
+      <div class="contact-box"><h3>We'd be happy to hear from you.</h3><p>Phone, WhatsApp, email and business address will be added when you provide them.</p><div class="contact-note">বাংলাদেশের কৃষক, ডিলার ও ব্যবসায়িক সহযোগীদের জন্য।</div></div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap foot"><div><strong>SHEBA AGRO SCIENCE</strong><br>Imported Agricultural Products</div><div>© <span id="year"></span> Sheba Agro Science. All rights reserved.</div></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
