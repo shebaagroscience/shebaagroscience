@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shebaagroscience.github.io/shebaagroscience/sitemap.xml
